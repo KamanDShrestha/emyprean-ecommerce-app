@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+ body{
+        margin: 0;
+        background-color:white;
+    }
+    .formDiv{
+        position: absolute;
+        z-index: 99 !important;
+        right: 150px;
+    }
+    .formInput{
+       
+        height: 450px;
+        width: 400px;
+        background-color:white;
+        box-shadow: 0px 0px 5px;
+        border-radius: 20px;
+        box-sizing: border-box;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 45px;
+        
+    }
+
+    input[type=text],[type=email],[type=password]{
+
+        width: 300px;
+        padding:10px;
+        border-radius: 10px;
+        border-color: rgb(185, 185, 185);
+        margin-top: 10px;
+        margin-bottom:10px ; 
+
+    }
+    input:focus, input.form-control:focus{
+        
+        outline:#000000 auto  !important;
+        outline-width: 1px!important;
+        border-width: 3px;
+
+    }
+    input[type=button], input[type=submit], input[type=reset] {
+        background-color: #0077ff;
+        width: 100px;
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+        margin:auto;
+        cursor: pointer;
+    }
+    .formTitle{
+        text-align: center;
+        color: #212121;
+    }
+    .formSubtitle{ 
+        text-align: center;
+        font-size: 0.725rem;
+        max-width: 80%;
+        color: #8B8E98
+    }
+    a.signUp{
+        text-decoration: none;
+        color: black;
+        font-weight: bolder;   
+    }
+    a:hover.signUp{
+        text-decoration: none;
+        color: rgb(149, 149, 155);
+    }
+
+    .leftText{
+        padding-left: 50px;
+        
+    }
+    .red_dress{
+        z-index: 2;
+        position: absolute;
+        right: 800px;
+        top: 300px;
+        border-radius:0px; 	
+    }
+    .asian_woman{
+        position:absolute;
+        top:36px;
+        right: 500px;
+        z-index: 1;
+    }
+    .leftHeader{
+        position: absolute;
+        left: 50px;
+        top: 280px;
+        color: black;
+        z-index: 98;
+    }
+    .leftHeaderSubtext{
+        position: absolute;
+        left: 120px;
+        top: 370px;
+        z-index: 98;
+        color:#212121;
+
+    }
+    .error-message{
+    	text-align: center;
+    	color:red;	
+    	margin-top:5px;
+    	margin-bottom:5px;
+
+    }

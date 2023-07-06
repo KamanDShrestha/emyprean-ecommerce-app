@@ -1,0 +1,86 @@
+@charset "ISO-8859-1";
+    body{
+        margin: 0;
+    }
+
+    .container{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .child{
+        width: 600px;
+        height: 600px;
+        border-radius: 20px;
+        background-color: white;
+        box-shadow: 3px 3px 15px 0px rgba(32, 32, 32, 0.75);
+        padding-top:40px;
+    }
+
+    .formChild{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 20px;
+        column-gap: 80px;
+    }
+
+    .formChild div{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: -10px;
+    }   
+
+    input[type=text],[type=email],[type=password],[type=tel],[type=date]{
+        width: 200px;
+        padding: 10px;
+        border: none;
+        border-radius: 8px;
+        border-color: rgb(185, 185, 185);
+        outline: none;
+        background-color: rgb(247, 243, 243);
+        margin-top: 10px;
+        margin-bottom:10px ; 
+        font-size: 14px;        
+    }
+
+    input[type=submit]{
+        width: 400px;
+        padding: 9px;
+        border-radius: 8px;
+        background-color: rgb(24, 24, 255);
+        border: none;
+        font-size: 14px;        
+    }
+
+    input[type=submit]:hover{
+        cursor: pointer;
+        background-color: rgb(19, 19, 206);
+
+    }
+
+    input:focus, input.form-control:focus{
+        outline:#000000 auto  !important;
+        
+    }
+
+    img{
+        width:130px;
+        height: 130px;
+        object-fit: cover;
+        border-radius: 50% !important;
+    }
+    a{
+        text-decoration: none;
+        color: black; ;
+        font-weight: bolder;   
+    }
+    a:hover{
+        text-decoration: none;
+        color: rgb(149, 149, 155);
+    }

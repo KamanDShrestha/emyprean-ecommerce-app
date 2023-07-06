@@ -1,0 +1,158 @@
+@charset "ISO-8859-1";
+ body{
+    margin: 0px;
+}
+
+.navbar{
+	display: grid;
+
+    grid-template-columns: repeat(2,50%);
+    
+    justify-content: center;
+	align-items: center;
+}
+
+
+img{
+	width: 100%;
+	object-fit: cover
+}
+
+.logo{
+	height: 10em;
+	width: 30em;
+}
+
+.logo:hover{
+	cursor: pointer;
+}
+
+.menu{
+	list-style: none;
+	display: grid;
+    grid-template-columns:repeat(6,auto);
+	grid-template-rows: auto;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	text-decoration: none;
+
+	text-decoration: underline;
+}
+    .container{
+        display: flex;
+        width: 100%;
+        height: 90vh;
+        justify-content: center;
+        align-items: center;
+    }
+        
+    .userInputContainer{
+        background-color: #ececec   ;
+        width: 400px;
+        height: 450px;
+        padding: 50px;
+
+
+    }
+        
+    .userInput{
+        display: flex; 
+        flex-direction: column;
+        flex-wrap: wrap; 
+        row-gap: 20px; 
+        column-gap: 40px; 
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .userInput input textarea{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    .userInput input{
+        border: 2px solid black;
+        background-color: white;
+        color: black;
+        padding: 6px;
+    
+    }
+    
+    textarea{
+        resize: none;
+        color: black;
+        border: 2px solid black;
+    
+    }
+    
+    .userInput button[type=submit]{
+
+        padding: 6px;
+        width: 100%;
+        border: none;
+        background-color: #797979;
+    
+    } 
+    .userInput button[type=submit]:hover{
+        cursor: pointer;
+        background-color: #5b6eff;
+    
+    } 
+
+    .seperator {
+	margin-top: 37px;
+	margin-bottom: 0px;
+}
+
+.footer {
+	display: flex; 
+	flex-wrap: wrap; 
+	flex-direction: row; 
+	align-items: center; 
+	justify-content: center; 
+	padding-bottom: 20px;
+}
+
+.firstSection{
+	display: flex; width: 40%; 
+	height: auto;
+	color: grey; 
+	text-align: center;
+}
+
+
+.firstSection img{
+	margin-bottom: 0px;
+}
+
+.social-icons a{
+	background-color:#eceeef;
+	color:#818a91;
+	font-size:16px;
+	display:inline-block;
+	line-height:44px;
+	width:44px;
+	height:44px;
+	text-align:center;
+	margin-right:8px;
+	border-radius:100%;
+	-webkit-transition:all .2s linear;
+	-o-transition:all .2s linear;
+	transition:all .2s linear;
+}
+.facebook:hover{
+	background-color:#007bb6
+}
+.twitter:hover{
+	background-color:#00aced
+}
+.instagram:hover{
+	background-color:#f7005f
+}
